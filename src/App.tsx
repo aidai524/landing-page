@@ -1,18 +1,12 @@
 import React from 'react';
+import HomePage from '~src/pages/home';
 
-interface Props {
-  name: string;
-}
-
-class App extends React.Component<Props> {
-  render() {
-    const { name } = this.props;
-    return (
-      <>
-        <h1 className="text-4xl text-white bg-black">Hello {name}</h1>
-      </>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div className="App">
+      <HomePage />
+    </div>
+  );
+};
 
 export default App;

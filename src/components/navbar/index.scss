@@ -1,0 +1,22 @@
+.Navbar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 85px;
+  top: 0px;
+  background: rgba(0, 19, 32, 0.7);
+  border: 1px solid rgba(8, 97, 81, 0.39);
+  backdrop-filter: blur(20px);
+  border-radius: 5px;
+  z-index: 100;
+
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    width: 100%;
+  }
+
+  
+}
