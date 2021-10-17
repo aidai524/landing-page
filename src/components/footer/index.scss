@@ -1,0 +1,51 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 140px;
+
+  &_left {
+    &-text {
+      margin-top: 25px;
+      width: 375px;
+      font-family: Lexend Deca;
+      font-size: 14px;
+      line-height: 17px;
+      color: #ffffff;
+      opacity: 0.5;
+    }
+  }
+}
+
+.FooterMenu {
+  display: flex;
+
+  &_nav {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-right: 120px;
+    }
+
+    &-title {
+      margin-bottom: 13px;
+      font-family: Lexend Deca;
+      font-size: 18px;
+      line-height: 22px;
+      color: #00d6af;
+    }
+
+    &-item {
+      margin-bottom: 20px;
+      font-family: Lexend Deca;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffffff;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -3,15 +3,25 @@
   align-items: center;
 
   &_item {
+    position: relative;
     margin-left: 35px;
-    font-family: Lexend Deca;
-    font-size: 18px;
-    line-height: 22px;
-    color: #73818b;
+
+    > span {
+      font-family: Lexend Deca;
+      font-size: 18px;
+      line-height: 22px;
+      color: #73818b;
+    }
 
     &:hover {
-      color: #ffffff;
+      > span {
+        color: #ffffff;
+      }
     }
+  }
+
+  &_dropdown {
+    position: absolute;
   }
 
   &_iconQuiz {

@@ -1,0 +1,29 @@
+.Roadmap {
+  position: relative;
+  padding: 76px 116px;
+
+  &_line1 {
+    position: absolute;
+    top: -420px;
+    left: 0;
+  }
+
+  &_line2 {
+    position: absolute;
+    top: -450px;
+    left: 0;
+  }
+
+  &_title {
+    width: 540px;
+    font-family: Lexend Deca;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &_content {
+    height: 400px;
+  }
+}
