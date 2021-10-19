@@ -1,11 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import { AiOutlineMedium } from 'react-icons/ai';
 import { FaDiscord, FaTelegramPlane, FaTwitter } from 'react-icons/fa';
-import { useRefPrice } from '~src/hooks/home';
+import { RefPrice } from '~src/hooks/home';
+import BtnAmount from '../btnAmount';
 import Dropdown, { DropdownItem } from '../dropdown';
-import { IconBubble, IconRef } from '../icon';
+import { IconBubble } from '../icon';
 
-import './NavMenu.scss';
+type Props = {
+  data?: RefPrice;
+};
 
 const dropdownItems: DropdownItem[] = [
   {
@@ -30,36 +33,34 @@ const dropdownItems: DropdownItem[] = [
   }
 ];
 
-const NavMenu = () => {
-  const { data } = useRefPrice();
-
-  console.log(data);
+const MNavMenu = ({ data }: Props) => {
+  const [isHover, setHover] = useState(false);
 
   return (
-    <div className="NavMenu">
-      <span className="NavMenu_iconQuiz">
+    <div className="NavMenu flex items-center s:hidden">
+      <span className="relative inline-flex">
         <IconBubble />
-        <span className="NavMenu_iconQuiz-text">Quiz</span>
+        <span className="NavMenu_iconQuiz-text absolute left-3">Quiz</span>
       </span>
-      <a href="" className="NavMenu_item">
+      <a href="" className="NavMenu_item relative ml-9">
         <span>About</span>
       </a>
-      <a href="" className="NavMenu_item">
+      <a href="" className="NavMenu_item relative ml-9">
         <span>Developers</span>
       </a>
-      <a href="" className="NavMenu_item">
+      <a
+        href=""
+        className="NavMenu_item relative ml-9"
+        onMouseOver={() => setHover(true)}
+        onMouseOut={() => setHover(false)}
+      >
         <span>Community</span>
-        <Dropdown items={dropdownItems} className="NavMenu_dropdown" />
+        <Dropdown items={dropdownItems} show={isHover} />
       </a>
-      <button className="NavMenu_btnLaunch">Launch APP</button>
-      <button className="NavMenu_btnAmount">
-        <span className="NavMenu_btnAmount-circle">
-          <IconRef />
-        </span>
-        <span className="NavMenu_btnAmount-text">${data?.['ref-finance'].usd}</span>
-      </button>
+      <button className="NavMenu_btnLaunch ml-12 h-10 text-base font-bold text-white rounded">Launch APP</button>
+      <BtnAmount data={data} />
     </div>
   );
 };
 
-export default NavMenu;
+export default MNavMenu;

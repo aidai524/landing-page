@@ -1,23 +1,19 @@
 import React from 'react';
-import { Logo } from '../pic';
-
-import './index.scss';
-import FooterMenu from './Menu';
+import FooterMenus from './FooterMenus';
+import FooterBrand from './FooterBrand';
 
 const Footer = () => {
   return (
-    <div className="Footer">
-      <div className="Footer_left">
-        <Logo />
-        <div className="Footer_left-text">
-          Ref Finance is one of the core projects in the DeFi ecosystem on NEAR Protocol. Ref aims to bring DeFi one
-          step closer to the people.
-        </div>
-      </div>
-      <div className="Footer_right">
-        <FooterMenu />
-      </div>
-    </div>
+    <footer
+      className={`
+        px-36 s:px-8 py-24
+        l:flex l:justify-between
+        s:grid s:grid-cols-3 s:justify-items-center s:text-center
+      `}
+    >
+      <FooterBrand />
+      <FooterMenus />
+    </footer>
   );
 };
 

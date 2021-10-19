@@ -1,16 +1,72 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FaDiscord, FaTelegramPlane, FaTwitter } from 'react-icons/fa';
+import { AiOutlineMedium } from 'react-icons/ai';
 import NavMenu from './NavMeun';
-import Logo from '../pic/Logo';
+import MNavMenu from './MNavMenu';
+import { Logo, MLogo } from '../pic';
+import Menu, { MenuItem } from '../menu';
+import { useRefPrice } from '~src/hooks/home';
 
 import './index.scss';
 
+const menuItems: MenuItem[] = [
+  {
+    title: 'About',
+    href: ''
+  },
+  {
+    title: 'Developers',
+    href: ''
+  },
+  {
+    title: 'Community',
+    href: '',
+    children: [
+      {
+        icon: <FaTwitter />,
+        title: 'Twitter',
+        href: 'https://twitter.com/finance_ref'
+      },
+      {
+        icon: <FaDiscord />,
+        title: 'Discord',
+        href: 'https://t.me/ref_finance'
+      },
+      {
+        icon: <FaTelegramPlane />,
+        title: 'Telegram',
+        href: 'https://discord.gg/SJBGcfMxJz'
+      },
+      {
+        icon: <AiOutlineMedium />,
+        title: 'Medium',
+        href: 'https://ref-finance.medium.com/'
+      }
+    ]
+  },
+  {
+    title: 'Launch App',
+    href: ''
+  }
+];
+
 const Navbar = () => {
+  const { data } = useRefPrice();
+  const [visible, setVisible] = useState(false);
+
   return (
-    <nav className="Navbar">
-      <div className="Navbar_wrapper">
+    <nav className="Navbar flex items-center w-full h-20 fixed top-0 z-50">
+      <div className="flex justify-between px-10 w-full s:pl-6 s:pr-4">
         <Logo />
-        <NavMenu />
+        <MLogo />
+        <NavMenu data={data} />
+        <MNavMenu data={data} onOpenMenu={() => setVisible(!visible)} />
       </div>
+      {visible && (
+        <div className="Navbar_menu absolute top-20 w-full h-screen z-30">
+          <Menu items={menuItems} show={visible} />
+        </div>
+      )}
     </nav>
   );
 };

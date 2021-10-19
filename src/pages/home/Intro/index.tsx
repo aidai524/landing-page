@@ -1,14 +1,14 @@
 import React from 'react';
-import DataCard from './DataCard';
-import FeatureCard from './FeatureCard';
-import IntroIcons from './Community';
+import DataCards from './DataCards';
+import FeatureCards from './FeatureCards';
+import CommunityIcons from './CommunityIcons';
 
 const Intro = () => {
   return (
-    <div className="Intro">
-      <DataCard />
-      <IntroIcons />
-      <FeatureCard />
+    <div className="w-full flex flex-col items-center">
+      <DataCards />
+      <CommunityIcons />
+      <FeatureCards />
     </div>
   );
 };
