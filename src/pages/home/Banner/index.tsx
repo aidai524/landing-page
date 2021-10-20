@@ -3,13 +3,14 @@ import Content from './Content';
 import MContent from './MContent';
 import { IconMNear, IconNear } from '~src/components/icon';
 import { BlockChain, MBlockChain } from '~src/components/pic';
+import { Coins, MCoins } from '~src/components/conins';
 
 import './index.scss';
 
 const Banner = () => {
   return (
-    <div className="Banner absolute left-0 right-0 mx-auto top-32 w-5/6 s:top-36 s:w-2/3">
-      <div className="flex flex-col items-end ml-36 mt-8 mb-32 w-5/12 s:items-center s:m-0 s:w-full">
+    <div className="mx-auto w-5/6 s:w-2/3">
+      <div className="inline-flex flex-col items-end ml-32 my-32 s:items-center s:m-0 s:w-full">
         <IconNear />
         <IconMNear />
         <Content />
@@ -18,6 +19,12 @@ const Banner = () => {
           Launch APP
         </button>
       </div>
+
+      <div className="mt-12">
+        <Coins />
+        <MCoins />
+      </div>
+
       <BlockChain />
       <MBlockChain />
     </div>

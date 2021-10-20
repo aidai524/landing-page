@@ -7,7 +7,7 @@ interface MenuItemProps {
 
 const MenuItem: FC<MenuItemProps> = ({ label, href }) => {
   return (
-    <li className="mb-5 text-white opacity-50 font-poppins text-base s:text-sm hover:opacity-100 s:col-span-1">
+    <li className="mb-5 text-white opacity-50 font-poppins text-base cursor-pointer s:text-sm hover:opacity-100 s:col-span-1">
       <a href={href}>{label}</a>
     </li>
   );

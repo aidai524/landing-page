@@ -55,7 +55,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(false);
 
   return (
-    <nav className="Navbar flex items-center w-full h-20 fixed top-0 z-50">
+    <nav className="Navbar fixed top-0 flex items-center w-full h-20 rounded z-50">
       <div className="flex justify-between px-6 w-full s:pl-6 s:pr-4">
         <a className="s:hidden ml-52 flex items-center" href="//app.ref.finance/" target="_blank">
           <Logo />
