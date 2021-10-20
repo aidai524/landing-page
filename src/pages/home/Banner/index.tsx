@@ -10,17 +10,17 @@ import './index.scss';
 const Banner = () => {
   return (
     <div className="mx-auto w-5/6 s:w-2/3">
-      <div className="inline-flex flex-col items-end ml-32 my-32 s:items-center s:m-0 s:w-full">
+      <div className="inline-flex flex-col items-end ml-32 my-32 s:items-center s:m-0 s:mb-60 s:w-full">
         <IconNear />
         <IconMNear />
         <Content />
         <MContent />
-        <button className="Banner_btnLaunch l:hidden mt-4 h-10 text-lg font-bold italic text-white rounded z-10">
+        <button className="Banner_btnLaunch l:hidden font-poppins mt-4 h-10 text-lg font-bold italic text-white rounded z-10">
           Launch APP
         </button>
       </div>
 
-      <div className="mt-12">
+      <div className="mt-12 s:mt-44">
         <Coins />
         <MCoins />
       </div>

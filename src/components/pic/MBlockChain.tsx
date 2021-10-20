@@ -3,7 +3,7 @@ import React from 'react';
 const MBlcokChian = () => {
   return (
     <svg
-      className="l:hidden absolute left-3 right-0 m-auto"
+      className="l:hidden absolute top-16 left-3 right-0 m-auto"
       style={{ top: '-5.2rem' }}
       width="245"
       height="627"

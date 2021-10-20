@@ -12,7 +12,6 @@ const HomePage = () => {
     <div className="min-h-screen bg-black">
       <header className="h-20">
         <Navbar />
-        
       </header>
       <section className="mx-auto">
         <Banner />
