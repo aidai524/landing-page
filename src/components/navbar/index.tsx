@@ -56,9 +56,13 @@ const Navbar = () => {
 
   return (
     <nav className="Navbar flex items-center w-full h-20 fixed top-0 z-50">
-      <div className="flex justify-between px-10 w-full s:pl-6 s:pr-4">
-        <Logo />
-        <MLogo />
+      <div className="flex justify-between px-6 w-full s:pl-6 s:pr-4">
+        <a className="s:hidden ml-52 flex items-center" href="//app.ref.finance/" target="_blank">
+          <Logo />
+        </a>
+        <a className="l:hidden" href="//app.ref.finance/" target="_blank">
+          <MLogo />
+        </a>
         <NavMenu data={data} />
         <MNavMenu data={data} onOpenMenu={() => setVisible(!visible)} />
       </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Logo = () => {
   return (
-    <svg className="s:hidden" width="166" height="37" viewBox="0 0 166 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="166" height="37" viewBox="0 0 166 37" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M23.5449 37H36.9995L23.5449 23.5454V37Z" fill="white" />
       <path d="M37 2.67029e-05L29.1515 2.60167e-05L37 7.84851L37 2.67029e-05Z" fill="#00C6A2" />
       <path

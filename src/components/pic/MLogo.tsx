@@ -2,7 +2,7 @@ import React from 'react';
 
 const MLogo = () => {
   return (
-    <svg className="l:hidden" width="97" height="31" viewBox="0 0 97 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="97" height="31" viewBox="0 0 97 31" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M18.002 28.286H28.2877L18.002 18.0002V28.286Z" fill="white" />
       <path d="M28.2871 0.000222206L22.2871 0.000221682L28.2871 6.00024L28.2871 0.000222206Z" fill="#00C6A2" />
       <path

@@ -37,27 +37,27 @@ const MNavMenu = ({ data }: Props) => {
   const [isHover, setHover] = useState(false);
 
   return (
-    <div className="NavMenu flex items-center s:hidden">
-      <span className="relative inline-flex">
+    <div className="NavMenu flex items-center s:hidden justify-center">
+      {/* <span className="relative inline-flex">
         <IconBubble />
         <span className="NavMenu_iconQuiz-text absolute left-3">Quiz</span>
-      </span>
-      <a href="" className="NavMenu_item relative ml-9">
+      </span> */}
+      <a href="" className="NavMenu_item relative ml-10">
         <span>About</span>
       </a>
-      <a href="" className="NavMenu_item relative ml-9">
+      <a href="" className="NavMenu_item relative ml-10">
         <span>Developers</span>
       </a>
       <a
         href=""
-        className="NavMenu_item relative ml-9"
+        className="NavMenu_item relative ml-10"
         onMouseOver={() => setHover(true)}
         onMouseOut={() => setHover(false)}
       >
         <span>Community</span>
         <Dropdown items={dropdownItems} show={isHover} />
       </a>
-      <button className="NavMenu_btnLaunch ml-12 h-10 text-base font-bold text-white rounded">Launch APP</button>
+      <button className="NavMenu_btnLaunch ml-8 h-10 text-base font-bold text-white rounded">Launch APP</button>
       <BtnAmount data={data} />
     </div>
   );
