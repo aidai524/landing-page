@@ -13,7 +13,7 @@ const CommunityAnchor: FC<CommunityAnchorProps> = ({
   href = ''
 }) => {
   return (
-    <a className='text-white-gray hover:text-white' href={href} aria-label={label}>
+    <a className='text-white-gray hover:text-white' href={href} target="_blank" aria-label={label}>
       {icon}
     </a>
   );
