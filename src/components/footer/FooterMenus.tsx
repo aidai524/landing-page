@@ -30,7 +30,7 @@ const Menu: FC<MenuProps> = ({ label, children }) => {
 const FooterMenus = () => {
   return (
     <>
-      <Menu label="PROJECT">
+      <Menu label="PRODUCT">
         <MenuItem label="Swap" />
         <MenuItem label="Farm" />
       </Menu>

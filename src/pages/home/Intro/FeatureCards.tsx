@@ -80,7 +80,7 @@ const FeatureCards = () => {
             the lowest fee
           </>
         }
-        description="Users can stake their $REF tokens to earn more and more $REF over time, distributed via protocol fees."
+        description="A swap or a typical transaction on NEAR only costs less than $0.01 for network transaction fee."
       />
       <FeatureCard
         index={1}
@@ -93,7 +93,7 @@ const FeatureCards = () => {
           </>
         }
         description={
-          "Ref Finance's AMM DEX enables permissionsless and automated trading between any native NEAR or bridged token through liquidity pools managed by smart contracts."
+          "Close to centralized service trading experience with less than 2 seconds network transaction finality."
         }
       />
       <FeatureCard
@@ -106,7 +106,7 @@ const FeatureCards = () => {
             Multi-rewards
           </>
         }
-        description="On Ref Finance, liquidity providers can earn $REF tokens (or other NEP-141 tokens) by staking their liquidity provider (LP) tokens."
+        description="Ref allows each liquidty pool to host up to 16 different farms at the same time to max token exposure to users."
       />
       <FeatureCard
         index={3}
