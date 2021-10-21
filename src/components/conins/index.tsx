@@ -15,19 +15,61 @@ import IconMCircle from '../icon/IconMCircle';
 export const Coins = () => {
   return (
     <div className="relative flex w-full h-32 s:hidden">
-      <IconCircle className="absolute -bottom-1" style={{ left: '36%' }} />
+      {/* <IconCircle className="absolute -bottom-1" style={{ left: '36%' }} /> */}
+      <img
+        className="w-16 h-16 absolute -bottom-1"
+        style={{ left: '36%' }}
+        src="https://i.postimg.cc/7htcVj6J/token-7.png"
+        alt=""
+      />
 
-      <IconCoin1 className="absolute -bottom-5" style={{ left: '45%' }} />
+      {/* <IconCoin1 className="absolute -bottom-1" style={{ left: '45%' }} /> */}
+      <img
+        className="w-28 h-28 absolute -bottom-1"
+        style={{ left: '45%' }}
+        src="https://i.postimg.cc/kMWBH9Fy/token4.png"
+        alt=""
+      />
 
-      <IconCircle className="absolute -bottom-1" style={{ left: '55%' }} />
+      {/* <IconCircle className="absolute -bottom-1" style={{ left: '55%' }} /> */}
+      <img
+        className="w-16 h-16 absolute -bottom-1"
+        style={{ left: '55%' }}
+        src="https://i.postimg.cc/7htcVj6J/token-7.png"
+        alt=""
+      />
 
-      <IconCoin2 className="absolute -bottom-5" style={{ left: '60%' }} />
+      {/* <IconCoin2 className="absolute -bottom-1" style={{ left: '60%' }} /> */}
+      <img
+        className="w-28 h-28 absolute -bottom-1"
+        style={{ left: '60%' }}
+        src="https://i.postimg.cc/q7m509sb/token4.png"
+        alt=""
+      />
 
-      <IconCoin3 className="absolute -bottom-5" style={{ left: '66%' }} />
+      {/* <IconCoin3 className="absolute -bottom-1" style={{ left: '66%' }} /> */}
+      <img
+        className="w-28 h-28 absolute -bottom-1"
+        style={{ left: '66%' }}
+        src="https://i.postimg.cc/WbbqqCg6/token5.png"
+        alt=""
+      />
 
-      <IconCircle className="absolute -bottom-1" style={{ left: '80%' }} />
+      {/* <IconCircle className="absolute -bottom-1" style={{ left: '80%' }} /> */}
+      <img
+        className="w-16 h-16 absolute -bottom-1"
+        style={{ left: '80%' }}
+        src="https://i.postimg.cc/7htcVj6J/token-7.png"
+        alt=""
+      />
 
-      <IconCoin4 className="absolute -bottom-5" style={{ left: '80%' }} />
+      {/* <IconCoin4 className="absolute -bottom-1" style={{ left: '80%' }} /> */}
+      <img
+        className="w-28 h-28 absolute -bottom-1"
+        style={{ left: '80%' }}
+        src="https://i.postimg.cc/vHVFhHrQ/token6.png"
+        alt=""
+      />
 
       <svg
         className="absolute bottom-0"
@@ -61,19 +103,61 @@ export const Coins = () => {
 export const MCoins = () => {
   return (
     <div className="relative flex w-full l:hidden">
-      <IconMCircle className="absolute -bottom-1" style={{ left: '-20%' }} />
+      {/* <IconMCircle className="absolute -bottom-1" style={{ left: '-20%' }} /> */}
+      <img
+        className="w-12 h-12 absolute bottom-0"
+        style={{ left: '-20%' }}
+        src="https://i.postimg.cc/7htcVj6J/token-7.png"
+        alt=""
+      />
 
-      <IconMCoin1 className="absolute -bottom-4" style={{ left: '-6%' }} />
+      {/* <IconMCoin1 className="absolute -bottom-4" style={{ left: '-6%' }} /> */}
+      <img
+        className="w-16 h-16 absolute bottom-0"
+        style={{ left: '0%' }}
+        src="https://i.postimg.cc/kMWBH9Fy/token4.png"
+        alt=""
+      />
 
-      <IconMCircle className="absolute -bottom-1" style={{ left: '20%' }} />
+      {/* <IconMCircle className="absolute -bottom-1" style={{ left: '20%' }} /> */}
+      <img
+        className="w-12 h-12 absolute bottom-0"
+        style={{ left: '19%' }}
+        src="https://i.postimg.cc/7htcVj6J/token-7.png"
+        alt=""
+      />
 
-      <IconMCoin2 className="absolute -bottom-4" style={{ left: '22%' }} />
+      {/* <IconMCoin2 className="absolute -bottom-4" style={{ left: '22%' }} /> */}
+      <img
+        className="w-16 h-16 absolute bottom-0"
+        style={{ left: '26%' }}
+        src="https://i.postimg.cc/q7m509sb/token4.png"
+        alt=""
+      />
 
-      <IconMCoin3 className="absolute -bottom-4" style={{ left: '40%' }} />
+      {/* <IconMCoin3 className="absolute -bottom-4" style={{ left: '40%' }} /> */}
+      <img
+        className="w-16 h-16 absolute bottom-0"
+        style={{ left: '43%' }}
+        src="https://i.postimg.cc/WbbqqCg6/token5.png"
+        alt=""
+      />
 
-      <IconMCircle className="absolute -bottom-1" style={{ left: '74%' }} />
+      {/* <IconMCircle className="absolute -bottom-1" style={{ left: '74%' }} /> */}
+      <img
+        className="w-12 h-12 absolute bottom-0"
+        style={{ left: '70%' }}
+        src="https://i.postimg.cc/7htcVj6J/token-7.png"
+        alt=""
+      />
 
-      <IconMCoin4 className="absolute -bottom-4" style={{ left: '77%' }} />
+      {/* <IconMCoin4 className="absolute -bottom-4" style={{ left: '77%' }} /> */}
+      <img
+        className="w-16 h-16 absolute bottom-0"
+        style={{ left: '78%' }}
+        src="https://i.postimg.cc/vHVFhHrQ/token6.png"
+        alt=""
+      />
     </div>
   );
 };

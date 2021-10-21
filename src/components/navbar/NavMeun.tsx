@@ -19,12 +19,12 @@ const dropdownItems: DropdownItem[] = [
   {
     icon: <FaTelegramPlane />,
     title: 'Telegram',
-    href: 'https://discord.gg/SJBGcfMxJz'
+    href: 'https://t.me/ref_finance'
   },
   {
     icon: <FaDiscord />,
     title: 'Discord',
-    href: 'https://t.me/ref_finance'
+    href: 'https://discord.gg/SJBGcfMxJz'
   },
   {
     icon: <AiOutlineMedium />,
@@ -42,14 +42,14 @@ const MNavMenu = ({ data }: Props) => {
         <IconBubble />
         <span className="NavMenu_iconQuiz-text absolute left-3">Quiz</span>
       </span> */}
-      <a href="" className="NavMenu_item relative ml-10">
-        <span>About</span>
+      <a href="https://guide.ref.finance" target="_blank" className="NavMenu_item relative ml-10">
+        <span>Docs</span>
       </a>
-      <a href="" className="NavMenu_item relative ml-10">
-        <span>Developers</span>
+      <a href="https://sodaki.com/" target="_blank" className="NavMenu_item relative ml-10">
+        <span>Analytics</span>
       </a>
       <a
-        href=""
+        onClick={() => void 0}
         className="NavMenu_item relative ml-10"
         onMouseOver={() => setHover(true)}
         onMouseOut={() => setHover(false)}
@@ -57,7 +57,12 @@ const MNavMenu = ({ data }: Props) => {
         <span>Community</span>
         <Dropdown items={dropdownItems} show={isHover} />
       </a>
-      <button className="NavMenu_btnLaunch ml-8 h-10 text-base font-bold text-white rounded">Launch APP</button>
+      <button
+        className="NavMenu_btnLaunch ml-8 h-10 text-base font-bold text-white rounded"
+        onClick={() => window.open('https://app.ref.finance', '_blank')}
+      >
+        Launch APP
+      </button>
       <BtnAmount data={data} />
     </div>
   );

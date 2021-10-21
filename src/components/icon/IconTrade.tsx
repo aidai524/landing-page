@@ -2,147 +2,56 @@ import React from 'react';
 
 const IconTrade = () => {
   return (
-    <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g filter="url(#filter0_bd_76:2151)">
-        <circle cx="47.6208" cy="48.1208" r="37.1208" fill="url(#paint0_linear_76:2151)" shape-rendering="crispEdges" />
-        <circle
-          cx="47.6208"
-          cy="48.1208"
-          r="37.1208"
-          stroke="url(#paint1_linear_76:2151)"
-          shape-rendering="crispEdges"
-        />
-      </g>
-      <g opacity="0.4" filter="url(#filter1_d_76:2151)">
-        <path
-          d="M10.4996 47.6176C10.4996 68.3966 27.1191 85.2414 47.6204 85.2414C68.1216 85.2414 84.7412 68.3966 84.7412 47.6176C84.7412 45.9371 84.7412 53.8747 63.2502 55.5381C41.7592 57.2015 31.9906 29.7959 10.4996 47.6176Z"
-          fill="url(#paint2_linear_76:2151)"
-        />
-      </g>
-      <g filter="url(#filter2_d_76:2151)">
-        <path
-          d="M84.7416 47.6176C84.7416 68.3966 68.1221 85.2414 47.6208 85.2414C27.1196 85.2414 10.5 68.3966 10.5 47.6176C10.5 45.9371 10.5 53.8747 31.991 55.5381C53.482 57.2015 63.2506 29.7959 84.7416 47.6176Z"
-          fill="url(#paint3_linear_76:2151)"
-        />
-      </g>
+    <svg
+      width="86px"
+      height="86px"
+      viewBox="0 0 86 86"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <title>icon2</title>
       <defs>
-        <filter
-          id="filter0_bd_76:2151"
-          x="0"
-          y="0.5"
-          width="95.2412"
-          height="95.2416"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feGaussianBlur in="BackgroundImage" stdDeviation="5" />
-          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_76:2151" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset />
-          <feGaussianBlur stdDeviation="5" />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-          <feBlend mode="normal" in2="effect1_backgroundBlur_76:2151" result="effect2_dropShadow_76:2151" />
-          <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_76:2151" result="shape" />
-        </filter>
-        <filter
-          id="filter1_d_76:2151"
-          x="8.5"
-          y="38.5699"
-          width="78.2412"
-          height="47.6714"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="-1" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_76:2151" />
-          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_76:2151" result="shape" />
-        </filter>
-        <filter
-          id="filter2_d_76:2151"
-          x="8.5"
-          y="38.5699"
-          width="78.2412"
-          height="47.6714"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="-1" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_76:2151" />
-          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_76:2151" result="shape" />
-        </filter>
-        <linearGradient
-          id="paint0_linear_76:2151"
-          x1="83.7488"
-          y1="83.2"
-          x2="-4.06783"
-          y2="51.99"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0.0641396" stop-color="white" stop-opacity="0.15" />
-          <stop offset="1" stop-color="white" stop-opacity="0.22" />
+        <linearGradient x1="32.1507858%" y1="64.0094568%" x2="81.3378233%" y2="33.3264279%" id="linearGradient-1">
+          <stop stop-color="#004438" offset="0%"></stop>
+          <stop stop-color="#056755" offset="100%"></stop>
         </linearGradient>
-        <linearGradient
-          id="paint1_linear_76:2151"
-          x1="83.1148"
-          y1="11"
-          x2="-0.728441"
-          y2="43.8741"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#C1FFF4" />
-          <stop offset="0.588542" stop-color="white" stop-opacity="0.56" />
-          <stop offset="1" stop-color="#BFCDFF" />
+        <linearGradient x1="74.7356726%" y1="11.2541712%" x2="29.9893808%" y2="93.8122554%" id="linearGradient-2">
+          <stop stop-color="#C1FFF4" offset="0%"></stop>
+          <stop stop-color="#73818B" stop-opacity="0.556135271" offset="46.055507%"></stop>
+          <stop stop-color="#BFCDFF" offset="100%"></stop>
         </linearGradient>
-        <linearGradient
-          id="paint2_linear_76:2151"
-          x1="11.1433"
-          y1="43.8445"
-          x2="83.0049"
-          y2="59.9036"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00D6AF" />
-          <stop offset="1" stop-color="#1AA289" />
-        </linearGradient>
-        <linearGradient
-          id="paint3_linear_76:2151"
-          x1="84.0979"
-          y1="43.8445"
-          x2="12.2364"
-          y2="59.9036"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00D6AF" />
-          <stop offset="1" stop-color="#1AA289" />
+        <linearGradient x1="81.3378233%" y1="38.9972726%" x2="28.0536953%" y2="60.3770731%" id="linearGradient-3">
+          <stop stop-color="#00D6AF" offset="0%"></stop>
+          <stop stop-color="#1AA189" offset="100%"></stop>
         </linearGradient>
       </defs>
+      <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-28" transform="translate(6.000000, 6.000000)">
+          <g id="编组-7" transform="translate(0.000000, 31.000000)" fill="url(#linearGradient-1)">
+            <path
+              d="M37.5,43.3720096 C58.2106781,43.3720096 75,26.5826877 75,5.87200957 C54.3027589,-11.9012415 40.8037362,16.7719608 25.3301915,16.7719608 C9.85664682,16.7719608 0.246710526,5.87200957 0,5.87200957 C0,26.5826877 16.7893219,43.3720096 37.5,43.3720096 Z"
+              id="椭圆形"
+              transform="translate(37.500000, 21.716890) scale(-1, 1) translate(-37.500000, -21.716890) "
+            ></path>
+          </g>
+          <circle
+            id="椭圆形"
+            stroke="url(#linearGradient-2)"
+            stroke-width="2"
+            fill-opacity="0.2"
+            fill="#FFFFFF"
+            cx="37.2532895"
+            cy="37.0065789"
+            r="38.0065789"
+          ></circle>
+          <path
+            d="M37.5,74.3720096 C58.2106781,74.3720096 75,57.5826877 75,36.8720096 C54.3027589,19.0987585 40.8037362,47.7719608 25.3301915,47.7719608 C9.85664682,47.7719608 0.246710526,36.8720096 0,36.8720096 C0,57.5826877 16.7893219,74.3720096 37.5,74.3720096 Z"
+            id="椭圆形"
+            fill="url(#linearGradient-3)"
+          ></path>
+        </g>
+      </g>
     </svg>
   );
 };

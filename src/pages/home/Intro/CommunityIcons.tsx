@@ -25,22 +25,22 @@ const Community = () => {
       <CommunityAnchor
         icon={<FaDiscord size={30} />}
         label='Discord'
-        href=''
+        href='https://t.me/ref_finance'
       />
       <CommunityAnchor
         icon={<FaTwitter size={30} />}
         label='Twitter'
-        href=''
+        href='https://twitter.cosm/finance_ref'
       />
       <CommunityAnchor
         icon={<FaTelegramPlane size={30} />}
         label='Telegram'
-        href=''
+        href='https://discord.gg/SJBGcfMxJz'
       />
       <CommunityAnchor
         icon={<FaMedium size={30} />}
         label='Medium'
-        href=''
+        href='https://ref-finance.medium.com'
       />
     </div>
   );

@@ -2,79 +2,41 @@ import React from 'react';
 
 const IconSwap = () => {
   return (
-    <svg width="88" height="92" viewBox="0 0 88 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <ellipse cx="61.335" cy="26.5388" rx="26.165" ry="26.5388" fill="url(#paint0_linear_76:2148)" />
-      <g filter="url(#filter0_bd_76:2148)">
-        <circle cx="40.4029" cy="50.835" r="29.9029" fill="url(#paint1_linear_76:2148)" shape-rendering="crispEdges" />
-        <circle
-          cx="40.4029"
-          cy="50.835"
-          r="29.9029"
-          stroke="url(#paint2_linear_76:2148)"
-          shape-rendering="crispEdges"
-        />
-      </g>
+    <svg
+      width="86px"
+      height="86px"
+      viewBox="0 0 86 86"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <title>icon1</title>
       <defs>
-        <filter
-          id="filter0_bd_76:2148"
-          x="0"
-          y="10.4321"
-          width="80.8057"
-          height="80.8058"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feGaussianBlur in="BackgroundImage" stdDeviation="5" />
-          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_76:2148" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset />
-          <feGaussianBlur stdDeviation="5" />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-          <feBlend mode="normal" in2="effect1_backgroundBlur_76:2148" result="effect2_dropShadow_76:2148" />
-          <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_76:2148" result="shape" />
-        </filter>
-        <linearGradient
-          id="paint0_linear_76:2148"
-          x1="87.0463"
-          y1="5.91558"
-          x2="34.8618"
-          y2="13.1308"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00D6AF" />
-          <stop offset="1" stop-color="#1AA289" />
+        <linearGradient x1="81.3378233%" y1="17.0054882%" x2="28.0536953%" y2="81.1183261%" id="linearGradient-1">
+          <stop stop-color="#00D6AF" offset="0%"></stop>
+          <stop stop-color="#1AA189" offset="100%"></stop>
         </linearGradient>
-        <linearGradient
-          id="paint1_linear_76:2148"
-          x1="69.506"
-          y1="79.0932"
-          x2="-1.23521"
-          y2="53.9519"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0.0641396" stop-color="white" stop-opacity="0.15" />
-          <stop offset="1" stop-color="white" stop-opacity="0.22" />
-        </linearGradient>
-        <linearGradient
-          id="paint2_linear_76:2148"
-          x1="68.9953"
-          y1="20.9321"
-          x2="1.45486"
-          y2="47.414"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#C1FFF4" />
-          <stop offset="0.588542" stop-color="white" stop-opacity="0.56" />
-          <stop offset="1" stop-color="#BFCDFF" />
+        <linearGradient x1="74.7356726%" y1="11.2541712%" x2="29.9893808%" y2="93.8122554%" id="linearGradient-2">
+          <stop stop-color="#C1FFF4" offset="0%"></stop>
+          <stop stop-color="#73818B" stop-opacity="0.556135271" offset="46.055507%"></stop>
+          <stop stop-color="#BFCDFF" offset="100%"></stop>
         </linearGradient>
       </defs>
+      <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-11" transform="translate(6.000000, 6.000000)">
+          <circle id="椭圆形" fill="url(#linearGradient-1)" cx="48.75" cy="26" r="26"></circle>
+          <circle
+            id="椭圆形"
+            stroke="url(#linearGradient-2)"
+            stroke-width="2"
+            fill-opacity="0.2"
+            fill="#FFFFFF"
+            cx="30"
+            cy="44.6363636"
+            r="31"
+          ></circle>
+        </g>
+      </g>
     </svg>
   );
 };

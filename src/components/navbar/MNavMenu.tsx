@@ -21,12 +21,12 @@ const dropdownItems: DropdownItem[] = [
   {
     icon: <FaTelegramPlane />,
     title: 'Telegram',
-    href: 'https://discord.gg/SJBGcfMxJz'
+    href: 'https://t.me/ref_finance'
   },
   {
     icon: <FaDiscord />,
     title: 'Discord',
-    href: 'https://t.me/ref_finance'
+    href: 'https://discord.gg/SJBGcfMxJz'
   },
   {
     icon: <AiOutlineMedium />,

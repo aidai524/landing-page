@@ -11,12 +11,12 @@ import './index.scss';
 
 const menuItems: MenuItem[] = [
   {
-    title: 'About',
-    href: ''
+    title: 'Docs',
+    href: 'https://guide.ref.finance'
   },
   {
-    title: 'Developers',
-    href: ''
+    title: 'Analytics',
+    href: 'https://sodaki.com'
   },
   {
     title: 'Community',
@@ -46,7 +46,7 @@ const menuItems: MenuItem[] = [
   },
   {
     title: 'Launch App',
-    href: ''
+    href: 'https://app.ref.finance'
   }
 ];
 
