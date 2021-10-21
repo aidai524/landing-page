@@ -3,21 +3,31 @@ import Content from './Content';
 import MContent from './MContent';
 import { IconMNear, IconNear } from '~src/components/icon';
 import { BlockChain, MBlockChain } from '~src/components/pic';
+import { Coins, MCoins } from '~src/components/conins';
 
 import './index.scss';
 
 const Banner = () => {
   return (
-    <div className="Banner absolute left-0 right-0 mx-auto top-32 w-5/6 s:top-36 s:w-2/3">
-      <div className="flex flex-col items-end ml-36 mt-8 mb-32 w-5/12 s:items-center s:m-0 s:w-full">
+    <div className="mx-auto w-5/6 s:w-2/3">
+      <div className="inline-flex flex-col items-end ml-32 my-32 s:items-center s:m-0 s:mb-40 s:w-full">
         <IconNear />
         <IconMNear />
         <Content />
         <MContent />
-        <button className="Banner_btnLaunch l:hidden mt-4 h-10 text-lg font-bold italic text-white rounded z-10">
+        <button
+          className="Banner_btnLaunch l:hidden font-poppins mt-4 h-10 text-lg font-bold italic text-white rounded z-10"
+          onClick={() => window.open('https://app.ref.finance', '_blank')}
+        >
           Launch APP
         </button>
       </div>
+
+      <div className="mt-9 s:mt-24">
+        <Coins />
+        <MCoins />
+      </div>
+
       <BlockChain />
       <MBlockChain />
     </div>

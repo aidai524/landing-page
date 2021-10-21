@@ -27,7 +27,7 @@ const Menu = ({ items, show }: Props) => {
           <li
             key={title}
             className="Menu_item flex justify-center items-center"
-            onClick={() => (!!children?.length ? setVisible(true) : void 0)}
+            onClick={() => (!!children?.length ? setVisible(true) : window.open(href, '_blank'))}
           >
             <a className="text-lg text-white opacity-50 w-full text-center">{title}</a>
             {visible && (

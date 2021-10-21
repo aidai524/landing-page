@@ -3,7 +3,7 @@ import React from 'react';
 const IconNear = () => {
   return (
     <svg
-      className="s:hidden mt-2"
+      className="s:hidden"
       width="186"
       height="28"
       viewBox="0 0 186 28"

@@ -7,28 +7,14 @@ import Intro from './Intro';
 import Roadmap from './Roadmap';
 import Cooperation from './Cooperation';
 
-import './index.scss';
-
 const HomePage = () => {
   return (
-    <div className="Home">
-      <section className="Home_top">
-        <img
-          className="w-full s:hidden"
-          src="//imagev2.xmcdn.com/storages/7e86-audiofreehighqps/8A/7B/CKwRIasFRKoDAAl0LgDuUmyF.png"
-          alt=""
-        />
-        <img
-          className="w-full l:hidden"
-          src="//imagev2.xmcdn.com/storages/00f6-audiofreehighqps/7F/B2/CKwRINsFRKppAANvGADuUob_.png"
-          alt=""
-        />
+    <div className="min-h-screen bg-black">
+      <header className="h-20">
         <Navbar />
-        <Banner />
-        <Coins />
-        <MCoins />
-      </section>
+      </header>
       <section className="mx-auto">
+        <Banner />
         <Intro />
         <Roadmap />
         <Cooperation />

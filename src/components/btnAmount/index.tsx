@@ -9,68 +9,40 @@ type Props = {
 const BtnAmount = ({ data }: Props) => {
   return (
     <button className="relative ml-16 w-32 h-14 flex items-center">
-      <svg
-        className="absolute top-0 left-0"
-        width="138"
-        height="59"
-        viewBox="0 0 138 59"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g filter="url(#filter0_bd_148:1048)">
+      <svg width="135" height="58" viewBox="0 0 135 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_bd_453:218)">
           <rect
-            x="11"
+            x="10.9727"
             y="11"
-            width="116"
-            height="37"
-            rx="0"
-            fill="url(#paint0_linear_148:1048)"
+            width="112.865"
+            height="36"
+            rx="18"
+            fill="url(#paint0_linear_453:218)"
             shape-rendering="crispEdges"
           />
           <rect
-            x="11"
+            x="10.9727"
             y="11"
-            width="116"
-            height="37"
-            rx="18.5"
-            stroke="url(#paint1_linear_148:1048)"
+            width="112.865"
+            height="36"
+            rx="18"
+            stroke="url(#paint1_linear_453:218)"
             shape-rendering="crispEdges"
           />
         </g>
-        <circle cx="28.5" cy="29.5" r="18" stroke="#00D6AF" />
-        <path d="M31.1001 37.4428H37.443L31.1001 31.1V37.4428Z" fill="white" />
-        <path d="M37.4429 20L33.7429 20L37.4429 23.7L37.4429 20Z" fill="#00C6A2" />
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M31.3644 31.1C31.2757 31.1 31.1876 31.0977 31.1001 31.0932V27.1229L35.4176 23.1138C36.0263 23.9446 36.3858 24.9696 36.3858 26.0786C36.3858 28.8518 34.1376 31.1 31.3644 31.1ZM34.2899 21.9969L31.1001 24.9589V21.064C31.1876 21.0594 31.2757 21.0571 31.3644 21.0571C32.4559 21.0571 33.4662 21.4054 34.2899 21.9969Z"
-          fill="white"
-        />
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M30.5714 21.0571H25.8142V25.7501L27.9489 27.8848L30.5714 25.4497V21.0571ZM30.5714 27.6136L27.9081 30.0866L25.8142 27.9927V37.4428H30.5714V27.6136Z"
-          fill="white"
-        />
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M25.2857 21.0571H20V27.8644L23.9642 23.9002L25.2857 25.2216V21.0571ZM25.2857 27.4642L23.9642 26.1427L20 30.1069V37.4428H25.2857V27.4642Z"
-          fill="white"
-        />
         <defs>
           <filter
-            id="filter0_bd_148:1048"
-            x="-39.5"
+            id="filter0_bd_453:218"
+            x="-39.5273"
             y="-39.5"
-            width="217"
-            height="138"
+            width="213.865"
+            height="137"
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="25" />
-            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_148:1048" />
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_453:218" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -81,26 +53,26 @@ const BtnAmount = ({ data }: Props) => {
             <feGaussianBlur stdDeviation="5" />
             <feComposite in2="hardAlpha" operator="out" />
             <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-            <feBlend mode="normal" in2="effect1_backgroundBlur_148:1048" result="effect2_dropShadow_148:1048" />
-            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_148:1048" result="shape" />
+            <feBlend mode="normal" in2="effect1_backgroundBlur_453:218" result="effect2_dropShadow_453:218" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_453:218" result="shape" />
           </filter>
           <linearGradient
-            id="paint0_linear_148:1048"
-            x1="125.449"
-            y1="46.9825"
-            x2="56.5031"
-            y2="-29.8383"
+            id="paint0_linear_453:218"
+            x1="122.328"
+            y1="46.01"
+            x2="55.2459"
+            y2="-28.7346"
             gradientUnits="userSpaceOnUse"
           >
             <stop offset="0.0641396" stop-color="white" stop-opacity="0.08" />
             <stop offset="1" stop-color="white" stop-opacity="0.03" />
           </linearGradient>
           <linearGradient
-            id="paint1_linear_148:1048"
-            x1="124.458"
+            id="paint1_linear_453:218"
+            x1="121.364"
             y1="11"
-            x2="64.2678"
-            y2="84.9892"
+            x2="62.8008"
+            y2="82.9895"
             gradientUnits="userSpaceOnUse"
           >
             <stop stop-color="#00C6A2" stop-opacity="0.83" />
@@ -109,8 +81,35 @@ const BtnAmount = ({ data }: Props) => {
           </linearGradient>
         </defs>
       </svg>
-      <span className="absolute left-12 font-lexend text-xl text-center text-white">
-        ${data?.['ref-finance'].usd}
+      <span
+        className="absolute flex justify-center items-center w-8 h-8 rounded-full border border-solid border-primary box-content"
+        style={{ left: 10 }}
+      >
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.5293 17.7281H17.7007L11.5293 11.5566V17.7281Z" fill="white" />
+          <path d="M17.7002 0.75669L14.1002 0.756689L17.7002 4.35669L17.7002 0.75669Z" fill="#00C6A2" />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M11.7871 11.5568C11.7003 11.5568 11.614 11.5546 11.5283 11.5501V7.68709L15.73 3.78549C16.3228 4.59406 16.6728 5.59171 16.6728 6.67111C16.6728 9.36942 14.4854 11.5568 11.7871 11.5568ZM14.6326 2.69909L11.5283 5.58164V1.79214C11.614 1.78766 11.7003 1.7854 11.7871 1.7854C12.8487 1.7854 13.8313 2.124 14.6326 2.69909Z"
+            fill="white"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M11.0153 1.78516H6.38672V6.35081L8.46407 8.42815L11.0153 6.05916V1.78516ZM11.0153 8.16461L8.42441 10.5704L6.38672 8.53274V17.728H11.0153V8.16461Z"
+            fill="white"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M5.87235 1.78516H0.729492V8.40878L4.58709 4.55118L5.87235 5.83644V1.78516ZM5.87235 8.01837L4.58709 6.73311L0.729492 10.5907V17.728H5.87235V8.01837Z"
+            fill="white"
+          />
+        </svg>
+      </span>
+      <span className="absolute font-lexend text-xl text-center text-white" style={{ left: 50 }}>
+        ${data?.price.slice(0, 4)}
       </span>
     </button>
   );

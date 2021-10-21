@@ -2,8 +2,6 @@ import React from 'react';
 import Goals from './Goals';
 import HeaderBackground from './HeaderBackground';
 
-import './index.scss';
-
 const Roadmap = () => {
   return (
     <div
@@ -41,7 +39,7 @@ const Roadmap = () => {
         `}
       >
         <Goals title="Q3">
-          {'- AMM'}
+          {'- AMM on mainnet'}
           {'- Multi Reward Farm'}
           {'- Instant Swap'}
         </Goals>

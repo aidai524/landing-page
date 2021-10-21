@@ -77,7 +77,7 @@ const FeatureCards = () => {
           <>
             Swap with
             <br />
-            the lowest fee
+            low fee
           </>
         }
         description="A swap or a typical transaction on NEAR only costs less than $0.01 for network transaction fee."
@@ -101,9 +101,9 @@ const FeatureCards = () => {
         icon={<IconEarn />}
         title={
           <>
-            Earn More
+            Earn more
             <br />
-            Multi-rewards
+            multi-rewards
           </>
         }
         description="Ref allows each liquidty pool to host up to 16 different farms at the same time to max token exposure to users."
@@ -115,7 +115,7 @@ const FeatureCards = () => {
           <>
             Airdrop
             <br />
-            Earn Rewards
+            earn rewards
           </>
         }
         description="Trades are excuted instantly and confirmed on the blockchain within hours."
