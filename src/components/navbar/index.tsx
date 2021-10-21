@@ -67,7 +67,7 @@ const Navbar = () => {
         <MNavMenu data={data} onOpenMenu={() => setVisible(!visible)} />
       </div>
       {visible && (
-        <div className="Navbar_menu absolute top-20 w-full h-screen z-30">
+        <div className="Navbar_menu absolute top-20 w-full h-screen z-30 l:hidden">
           <Menu items={menuItems} show={visible} />
         </div>
       )}

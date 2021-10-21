@@ -93,15 +93,15 @@ export const cooperations = [
     )
   },
   {
-    title: 'Mintbase',
+    title: 'Flux',
     icon: <img className="-mt-2" width="72" height="72" src="https://i.postimg.cc/rsmgZxvb/image-31-1.png" alt="" />
   },
   {
-    title: 'Octopus network',
+    title: 'Chadder',
     icon: <img className="-mt-3 -mb-1 w-20 h-20" src="https://i.postimg.cc/L53RvKFv/cheddy-cheezy-head-1.png" alt="" />
   },
   {
-    title: 'Aurora',
+    title: 'Pulse',
     icon: (
       <svg
         className="mt-3 mb-6"

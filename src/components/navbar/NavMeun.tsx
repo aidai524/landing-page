@@ -5,6 +5,7 @@ import { RefPrice } from '~src/hooks/home';
 import BtnAmount from '../btnAmount';
 import Dropdown, { DropdownItem } from '../dropdown';
 import { IconBubble } from '../icon';
+import { MenuItem } from '../menu';
 
 type Props = {
   data?: RefPrice;
