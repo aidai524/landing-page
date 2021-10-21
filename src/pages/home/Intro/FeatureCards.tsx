@@ -92,7 +92,9 @@ const FeatureCards = () => {
             high efficacy
           </>
         }
-        description="Close to centralized service trading experience with less than 2 seconds network transaction finality."
+        description={
+          "Close to centralized service trading experience with less than 2 seconds network transaction finality."
+        }
       />
       <FeatureCard
         index={2}
@@ -116,7 +118,7 @@ const FeatureCards = () => {
             earn rewards
           </>
         }
-        description="Trades are excuted instantly and confirmed on the blockchain within hours."
+        description="..."
       />
     </ul>
   );

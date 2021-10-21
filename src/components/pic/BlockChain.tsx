@@ -3,7 +3,7 @@ import React from 'react';
 const BlockChain = () => {
   return (
     <svg
-      className="s:hidden absolute -top-4 right-60"
+      className="s:hidden -mt-20"
       width="393"
       height="642"
       viewBox="0 0 393 642"
