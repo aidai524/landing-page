@@ -10,7 +10,7 @@ import './index.scss';
 const Banner = () => {
   return (
     <div className="mx-auto w-5/6 s:w-2/3">
-      <div className="inline-flex flex-col items-end ml-32 my-32 s:items-center s:m-0 s:mb-60 s:w-full">
+      <div className="inline-flex flex-col items-end ml-32 my-32 s:items-center s:m-0 s:mb-40 s:w-full">
         <IconNear />
         <IconMNear />
         <Content />
@@ -20,7 +20,7 @@ const Banner = () => {
         </button>
       </div>
 
-      <div className="mt-12 s:mt-44">
+      <div className="mt-9 s:mt-24">
         <Coins />
         <MCoins />
       </div>
