@@ -4,7 +4,7 @@ const HeaderBackground = () => {
       {/* 1440 x 904 */}
       <div
         className={`
-          hidden l:block w-full h-auto absolute top-0
+          hidden l:block w-full h-auto absolute -top-16
         `}
       >
         <svg width="100%" height="100%" viewBox="0 0 1440 904" fill="none" xmlns="http://www.w3.org/2000/svg">
