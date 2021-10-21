@@ -118,7 +118,7 @@ const FeatureCards = () => {
             earn rewards
           </>
         }
-        description="Trades are excuted instantly and confirmed on the blockchain within hours."
+        description="..."
       />
     </ul>
   );
